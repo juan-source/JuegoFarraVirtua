@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* color: #a7171f; */
+    /* background: linear-gradient(rgb(0,0,0,0.5)0%, rgb(0,0,0, 0.5)100% ), url(../images/img-dark.jpg); */
+}
+canvas{
+    /* border: 1px solid black; */
+    background: url('../images/fonfo-bueno.png');
+    
+    background-repeat: none;
+    /* background-position: center center; */
+    background-size: contain;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 80%;
+}
+.boton{
+    margin: auto;
+    width: 80%;
+    /* margin-left: 50%; */
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boton span{
+    font-family:'Press Start 2P', cursive; 
+    font-size: 4vh;
+}
+.boton button{
+    cursor: pointer;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100%;
+    border: none;
+    background: black;
+    color:white;
+    box-shadow: #000000;
+    font-size:5vh;
+}
+.boton button:hover{
+    color:black;
+    background:white;
+}
+@media screen and (max-width: 414px){
+    .boton span{
+        font-size: 2.5vh;
+    }
+}
